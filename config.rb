@@ -9,6 +9,8 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+page "/gameover/*", :layout => "other"
+page "/gameclear/*", :layout => "other"
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
 
